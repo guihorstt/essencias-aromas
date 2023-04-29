@@ -107,7 +107,7 @@ main h2{
     color: ;
     font-size: 1.8em ;
     font-weight: bold;
-    background-image: /*linear-gradient(to right, var(--cor0), transparent)*/;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
     text-indent: 8px
 }
 
