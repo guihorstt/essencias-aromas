@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kaushan+Script&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+
+:root{
+    --cor0:#ECC789;
+    --cor1:#D09656;
+    --cor2:#D99B50;
+    --cor3:#532913;
+    --cor4:#42220E;
+
+
+    --fonte-padrao: Verdana, Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Cormorant Garamond', serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#topo{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 7px 7px #d99b50b2;
+    padding: 5px;
+}
+
+div#topo > p {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 1.2em;
+    font-weight: normal;
+    
+}
+
+nav{
+    text-align: right;
+    padding: 9.5px;
+    box-shadow: 0px; 
+}
+
+nav > a{
+    color: var(--cor3);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration:none;
+    font-weight: normal ;
+    transition-duration: 0.5s ;
+}
+
+nav > a:hover{
+        background-color: var(--cor3);
+        color: var(--cor0);
+}
+
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+h1{
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: bolder;
+    color: var(--cor4);
+    text-align: center;
+}
+
+h2{
+    font-family: 'Cinzel', serif;
+    text-align: ;
+}
+
+p{
+    font-size: var(--fonte-padrao);
+    font-size: 1.2em;
+    
+    text-align: justify;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto; /*Para o conteúdo centralizar na página automaticamente*/
+    margin-bottom: 30px;
+    margin-top: 22px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    color: var(--cor4) ;
+    font-family: ;
+    font-weight: bolder ;
+    font-size: 2.3em;
+}
+
+main h2{
+    font-family: ;
+    color: ;
+    font-size: 1.8em ;
+    font-weight: bold;
+    background-image: /*linear-gradient(to right, var(--cor0), transparent)*/;
+    text-indent: 8px
+}
+
+main p{
+    margin: 15px 0px; /* Espaço entre linhas de cima e baixo */
+    text-align: justify;
+    text-indent: 30px; /*Recuo no ínicio da linha para criar parágrafo*/
+    font-size: 1em ; /*Tamanho da fonte*/
+    line-height: 2em ; /*Espaçamento entre linhas*/
+    
+}
+
+main strong{
+    color: var(--cor4);
+    font-weight: bold ;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor0) ;
+    padding: 2px 4px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4)
+}
+
+main img {
+    width: 100%;
+}
+
+div.video{
+    background-color: var(--cor4) ;
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+aside{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.219);
+}
+
+aside h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px ;
+    font-weight: normal;
+}
+
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer p{
+    text-align: center;
+}
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
