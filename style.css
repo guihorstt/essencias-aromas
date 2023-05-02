@@ -11,11 +11,17 @@
 
 
 :root{
-    --cor0:#ECC789;
+    /*--cor0:#ECC789;
     --cor1:#D09656;
     --cor2:#D99B50;
     --cor3:#532913;
-    --cor4:#42220E;
+    --cor4:#42220E;*/
+
+    --cor0:#F2F2F2;
+    --cor1:#D9D9D9;
+    --cor2:#BFBFBF;
+    --cor3:#595959;
+    --cor4:#404040;
 
 
     --fonte-padrao: Verdana, Arial, Helvetica, sans-serif;
@@ -31,7 +37,7 @@
 div#topo{
     background-color: black;
     color: white;
-    box-shadow: 0px 7px 7px #d99b50b2;
+    box-shadow: 0px 7px 7px #1414144b;
     padding: 5px;
 }
 
