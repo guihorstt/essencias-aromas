@@ -35,7 +35,7 @@
 }
 
 div#topo{
-    background-color: black;
+    background-color: var(--cor4);
     color: white;
     box-shadow: 0px 7px 7px #1414144b;
     padding: 5px;
@@ -109,10 +109,11 @@ main{
 }
 
 main h1{
-    color: var(--cor4) ;
+    color: var(--cor3) ;
     font-family: ;
     font-weight: bolder ;
-    font-size: 2.3em;
+    font-size: 2.2em;
+    margin-bottom: 30px;
 }
 
 main h2{
